@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 93678fe2e03f64edfb8d505bf7c6e282
+timeCreated: 1444851968
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 24259_0
+    21300002: 24259_1
+    21300004: 24259_2
+    21300006: 24259_3
+    21300008: 24259_4
+    21300010: 24259_5
+    21300012: 24259_6
+    21300014: 24259_7
+    21300016: 24259_8
+    21300018: 24259_9
+    21300020: 24259_10
+    21300022: 24259_11
+    21300024: 24259_12
+    21300026: 24259_13
+    21300028: 24259_14
+    21300030: 24259_15
+    21300032: 24259_16
+    21300034: 24259_17
+    21300036: 24259_18
+    21300038: 24259_19
+    21300040: 24259_20
+    21300042: 24259_21
+    21300044: 24259_22
+    21300046: 24259_23
+    21300048: 24259_24
+    21300050: Wolf_attack0
+    21300052: Wolf_attack1
+    21300054: Wolf_attack2
+    21300056: Wolf_attack3
+    21300058: Wolf_attack4
+    21300060: 24259_30
+    21300062: Wolf_attack5
+    21300064: Wolf_attack6
+    21300066: Wolf_attack7
+    21300068: Wolf_attack8
+    21300070: Wolf_attack9
+    21300072: 24259_36
+    21300074: scratch0
+    21300076: scratch1
+    21300078: scratch2
+    21300080: scratch3
+    21300082: scratch4
+    21300084: Wolf_die0
+    21300086: 24259_43
+    21300088: Wolf_die1
+    21300090: 24259_45
+    21300092: 24259_46
+    21300094: Wolf_die2
+    21300096: Wolf_die3
+    21300098: Wolf_die4
+    21300100: Wolf_die5
+    21300102: 24259_51
+    21300104: Wolf_die6
+    21300106: Wolf_die7
+    21300108: Wolf_walk0
+    21300110: Wolf_walk1
+    21300112: Wolf_walk2
+    21300114: Wolf_walk3
+    21300116: WereWolf_idle0
+    21300118: WereWolf_idle1
+    21300120: WereWolf_idle2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Wolf_attack0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 331
+        width: 157
+        height: 155
+      alignment: 9
+      pivot: {x: .479811162, y: .411387771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 331
+        width: 157
+        height: 155
+      alignment: 9
+      pivot: {x: .486540765, y: .404571533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 331
+        width: 157
+        height: 155
+      alignment: 9
+      pivot: {x: .489905685, y: .404571533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack3
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 331
+        width: 229
+        height: 163
+      alignment: 9
+      pivot: {x: .340828031, y: .438423216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack4
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 331
+        width: 227
+        height: 160
+      alignment: 9
+      pivot: {x: .348221958, y: .433967024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack5
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 331
+        width: 231
+        height: 157
+      alignment: 9
+      pivot: {x: .353640348, y: .368774801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack6
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 331
+        width: 288
+        height: 148
+      alignment: 9
+      pivot: {x: .657746196, y: .389349639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack7
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 331
+        width: 256
+        height: 152
+      alignment: 9
+      pivot: {x: .654765606, y: .388786316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack8
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 331
+        width: 200
+        height: 152
+      alignment: 9
+      pivot: {x: .563391745, y: .385310739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_attack9
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 331
+        width: 184
+        height: 148
+      alignment: 9
+      pivot: {x: .517226517, y: .367933542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scratch0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 204
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scratch1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scratch2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 204
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scratch3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 204
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scratch4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 204
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 150
+        height: 145
+      alignment: 9
+      pivot: {x: .376903594, y: .328885615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 27
+        width: 150
+        height: 145
+      alignment: 9
+      pivot: {x: .384597063, y: .312967986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 27
+        width: 150
+        height: 145
+      alignment: 9
+      pivot: {x: .396137506, y: .328885615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 27
+        width: 150
+        height: 144
+      alignment: 9
+      pivot: {x: .380750328, y: .311668992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die4
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 27
+        width: 210
+        height: 91
+      alignment: 9
+      pivot: {x: .502747774, y: .297094077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die5
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 27
+        width: 213
+        height: 78
+      alignment: 9
+      pivot: {x: .513545215, y: .329854906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 24259_51
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 36
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die6
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 27
+        width: 215
+        height: 61
+      alignment: 9
+      pivot: {x: .505367696, y: .348652631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_die7
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 27
+        width: 201
+        height: 61
+      alignment: 9
+      pivot: {x: .505741537, y: .348652631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_walk0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 939
+        width: 139
+        height: 167
+      alignment: 9
+      pivot: {x: .487490982, y: .451412737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_walk1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 939
+        width: 165
+        height: 167
+      alignment: 9
+      pivot: {x: .443798095, y: .451412708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_walk2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 939
+        width: 157
+        height: 167
+      alignment: 9
+      pivot: {x: .479999989, y: .451412708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wolf_walk3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 939
+        width: 162
+        height: 167
+      alignment: 9
+      pivot: {x: .5, y: .451412708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WereWolf_idle0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1139
+        width: 137
+        height: 165
+      alignment: 9
+      pivot: {x: .415506601, y: .412305415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WereWolf_idle1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1139
+        width: 141
+        height: 162
+      alignment: 9
+      pivot: {x: .412772417, y: .415147573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WereWolf_idle2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1139
+        width: 141
+        height: 160
+      alignment: 9
+      pivot: {x: .412772536, y: .418608844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
