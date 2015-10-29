@@ -145,13 +145,15 @@ public class Game_Controller : MonoBehaviour {
 		for(int i=0; i<numVictims; i++){
 		
 			Enemy_Controller victim = slashResults[i].collider.GetComponent<Enemy_Controller>();
-
+		
 			if(victim.InputUserSlash((slash.endPoint - slash.startPoint).normalized)){
 				// hit
 				UISlashShow.Slash( Vector2.Lerp(slash.endPoint, slash.startPoint, 0.5f), (slash.endPoint - slash.startPoint).normalized);
-				Player_Controller.instance.Attack(victim);
+				if(victim.CompareTag("BasicEnemy"))
+					Player_Controller.instance.Attack(victim);
 			}else{
-				Player_Controller.instance.Attack(victim);
+				if(victim.CompareTag("BasicEnemy"))
+					Player_Controller.instance.Attack(victim);
 			}
 
 		}

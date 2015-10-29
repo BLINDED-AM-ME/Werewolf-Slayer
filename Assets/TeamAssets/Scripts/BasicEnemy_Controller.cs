@@ -38,7 +38,7 @@ public class BasicEnemy_Controller : Enemy_Controller {
 	{
 		if(base.InputUserSlash (inputDir)){
 
-			Destroy(GetComponent<BoxCollider2D>());
+			SetColliderActive(0);
 
 			return true;
 		}else{
@@ -90,4 +90,5 @@ public class BasicEnemy_Controller : Enemy_Controller {
 		
 		Destroy(gameObject, 1.0f);
 	}
+	
 }

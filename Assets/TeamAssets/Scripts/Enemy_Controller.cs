@@ -55,6 +55,12 @@ public class Enemy_Controller : MonoBehaviour {
 
 	}
 
+	public void SetColliderActive(int isOn){
+		
+		GetComponent<BoxCollider2D>().enabled = (isOn == 0 ? false : true);
+		
+	}
+
 	public virtual void InheritInit(){ // for the kids
 
 	}
@@ -109,10 +115,14 @@ public class Enemy_Controller : MonoBehaviour {
 
 		foreach(Enemy_Controller wolf in controllers){
 		
-			if(wolf.GetType() == typeof(BasicEnemy_Controller)){
+			if(wolf.CompareTag("BasicEnemy")){
 
 				basicGuy = (BasicEnemy_Controller) wolf;
 				basicGuy.LoseScenario_Called(killer);
+			}else{
+				//MiniBoss_Controller miniBoss = (MiniBoss_Controller) wolf;
+
+				Player_Controller.PlayDeath();
 			}
 
 		}

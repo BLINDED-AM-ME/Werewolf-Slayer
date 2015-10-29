@@ -203,11 +203,13 @@ public class Player_Controller : MonoBehaviour {
 		instance.enabled = false;
 		instance.StopAllCoroutines();
 
-		instance.transform.position = killer.player_attack_position.position;
+		if(killer.CompareTag("BasicEnemy")){
+			instance.transform.position = killer.player_attack_position.position;
 
-		instance.animator.SetTrigger("StopDash");
+			instance.animator.SetTrigger("StopDash");
 
-		StopRunning();
+			StopRunning();
+		}
 	}
 	
 }

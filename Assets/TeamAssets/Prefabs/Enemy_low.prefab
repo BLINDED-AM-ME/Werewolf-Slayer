@@ -33,7 +33,7 @@ GameObject:
   - 61: {fileID: 6154008}
   m_Layer: 8
   m_Name: Enemy_low
-  m_TagString: Untagged
+  m_TagString: BasicEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -352,6 +352,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Size.x
       value: 1.50999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: BasicEnemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

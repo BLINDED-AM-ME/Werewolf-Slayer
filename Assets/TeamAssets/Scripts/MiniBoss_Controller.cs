@@ -32,8 +32,9 @@ public class MiniBoss_Controller : Enemy_Controller {
 		if(base.InputUserSlash (inputDir)){
 
 			deathArrow.GetComponent<SpriteRenderer>().color = Color.green;
+
 			if(!isFurySlashing){
-				GetComponent<BoxCollider2D>().enabled = false;
+				SetColliderActive(0);
 			}else{
 				Sounds_gore.PlaySound();
 				furySlashCount++;
@@ -61,9 +62,9 @@ public class MiniBoss_Controller : Enemy_Controller {
 		PromptText.AddMessage("Slash him up", slashFury_time);
 		isFurySlashing = true;
 		isHit = true;
-		GetComponent<BoxCollider2D>().enabled = true;
+		SetColliderActive(1);
 		yield return new WaitForSeconds(slashFury_time);
-		GetComponent<BoxCollider2D>().enabled = false;
+		SetColliderActive(0);
 		isFurySlashing = false;
 
 		animator.SetTrigger("die");
@@ -82,12 +83,12 @@ public class MiniBoss_Controller : Enemy_Controller {
 	private bool isHoldingForAttack = false;
 	public IEnumerator QuicktimeEventStart(float timeLimit){
 
-		GetComponent<BoxCollider2D>().enabled = true;
+		SetColliderActive(1);
 		SetArrow();
 
 		yield return new WaitForSeconds(timeLimit);
 
-		GetComponent<BoxCollider2D>().enabled = false;
+		SetColliderActive(0);
 		deathArrow.GetComponent<SpriteRenderer>().enabled = false;
 
 		animator.SetTrigger("attack");
@@ -113,7 +114,6 @@ public class MiniBoss_Controller : Enemy_Controller {
 		}else{ // you are done
 			StopAllCoroutines();
 			Game_Controller.LoseScenario(this);
-			Player_Controller.PlayDeath();
 		}
 
 	}
