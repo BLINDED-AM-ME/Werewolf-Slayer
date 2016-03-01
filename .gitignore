@@ -1,11 +1,7 @@
 
-*.csproj
-
 Library/
-
+*.csproj
 
 *.sln
 
 *.userprefs
-
-*.sln
